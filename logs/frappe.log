@@ -1,0 +1,582 @@
+[DEBUG] 2022-06-13 22:44:43,429 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:45:43,559 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:46:43,757 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:47:43,890 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:48:44,350 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:49:44,566 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:50:44,739 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:51:44,885 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:52:45,115 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:53:45,345 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:54:45,647 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:55:45,868 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:56:46,177 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:57:46,400 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:58:46,604 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 22:59:46,842 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:00:47,326 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:01:47,475 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:02:47,700 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:03:47,834 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:04:48,002 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:05:48,144 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:06:48,364 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:07:48,572 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:08:48,771 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:09:48,917 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:10:49,675 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:11:49,786 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:12:49,970 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[ERROR] 2022-06-13 23:13:13,984 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
+Site: proveedor_orden
+Form Dict: {
+ "cached_timestamp": "2020-07-01 12:39:57.698621",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Sales Order",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 63, in load_assets
+    self.add_code()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 117, in add_code
+    self.add_html_templates(path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/selling/doctype/sales_order'
+[ERROR] 2022-06-13 23:13:14,167 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 63, in load_assets
+    self.add_code()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 117, in add_code
+    self.add_html_templates(path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/selling/doctype/sales_order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-13 23:13:23,340 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
+Site: proveedor_orden
+Form Dict: {
+ "cached_timestamp": "2020-07-01 12:39:57.698621",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Sales Order",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 63, in load_assets
+    self.add_code()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 117, in add_code
+    self.add_html_templates(path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/selling/doctype/sales_order'
+[ERROR] 2022-06-13 23:13:23,342 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 63, in load_assets
+    self.add_code()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 117, in add_code
+    self.add_html_templates(path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/selling/doctype/sales_order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[DEBUG] 2022-06-13 23:13:50,187 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:14:50,301 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:15:50,457 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[ERROR] 2022-06-13 23:16:07,656 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
+Site: proveedor_orden
+Form Dict: {
+ "cmd": "erpnext.hub_node.api.call_hub_method",
+ "method": "get_categories",
+ "params": "{}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f4394721d60>: Failed to establish a new connection: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4394721d60>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/erpnext/erpnext/hub_node/api.py", line 65, in call_hub_method
+    response = connection.post_request(params)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/frappeclient.py", line 280, in post_request
+    res = self.session.post(self.url, data=self.preprocess(data), verify=self.verify, headers=self.headers)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4394721d60>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+[ERROR] 2022-06-13 23:16:07,664 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
+Site: proveedor_orden
+Form Dict: {
+ "cmd": "erpnext.hub_node.api.call_hub_method",
+ "method": "get_data_for_homepage",
+ "params": "{\"country\":\"Bolivia, Plurinational State of\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f43b62bd670>: Failed to establish a new connection: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f43b62bd670>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/erpnext/erpnext/hub_node/api.py", line 65, in call_hub_method
+    response = connection.post_request(params)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/frappeclient.py", line 280, in post_request
+    res = self.session.post(self.url, data=self.preprocess(data), verify=self.verify, headers=self.headers)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f43b62bd670>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+[ERROR] 2022-06-13 23:16:07,698 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f43b62bd670>: Failed to establish a new connection: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f43b62bd670>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/erpnext/erpnext/hub_node/api.py", line 65, in call_hub_method
+    response = connection.post_request(params)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/frappeclient.py", line 280, in post_request
+    res = self.session.post(self.url, data=self.preprocess(data), verify=self.verify, headers=self.headers)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f43b62bd670>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-13 23:16:07,702 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f4394721d60>: Failed to establish a new connection: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4394721d60>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/erpnext/erpnext/hub_node/api.py", line 65, in call_hub_method
+    response = connection.post_request(params)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/frappeclient.py", line 280, in post_request
+    res = self.session.post(self.url, data=self.preprocess(data), verify=self.verify, headers=self.headers)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='hubmarket.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4394721d60>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[DEBUG] 2022-06-13 23:16:50,707 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:17:50,869 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:18:50,996 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:19:51,147 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:20:51,319 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:21:54,078 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:22:57,132 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-13 23:23:58,085 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:05:07,666 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:06:07,872 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:07:07,991 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:08:08,200 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:09:08,386 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:10:08,579 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:11:08,726 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:12:08,897 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:13:09,051 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:14:09,187 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:15:09,320 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
+[DEBUG] 2022-06-14 00:16:09,509 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: proveedor_orden
+Queued events for site proveedor_orden
