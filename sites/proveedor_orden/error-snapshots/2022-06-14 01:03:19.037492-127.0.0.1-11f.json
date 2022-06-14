@@ -1,0 +1,597 @@
+{
+ "etype": "ModuleNotFoundError",
+ "evalue": "ModuleNotFoundError(\"No module named 'erpnext.accounts.report.general_ledger'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   78,
+   111,
+   32,
+   109,
+   111,
+   100,
+   117,
+   108,
+   101,
+   32,
+   110,
+   97,
+   109,
+   101,
+   100,
+   32,
+   39,
+   101,
+   114,
+   112,
+   110,
+   101,
+   120,
+   116,
+   46,
+   97,
+   99,
+   99,
+   111,
+   117,
+   110,
+   116,
+   115,
+   46,
+   114,
+   101,
+   112,
+   111,
+   114,
+   116,
+   46,
+   103,
+   101,
+   110,
+   101,
+   114,
+   97,
+   108,
+   95,
+   108,
+   101,
+   100,
+   103,
+   101,
+   114,
+   39,
+   34,
+   44,
+   41
+  ],
+  "msg": [
+   34,
+   78,
+   111,
+   32,
+   109,
+   111,
+   100,
+   117,
+   108,
+   101,
+   32,
+   110,
+   97,
+   109,
+   101,
+   100,
+   32,
+   39,
+   101,
+   114,
+   112,
+   110,
+   101,
+   120,
+   116,
+   46,
+   97,
+   99,
+   99,
+   111,
+   117,
+   110,
+   116,
+   115,
+   46,
+   114,
+   101,
+   112,
+   111,
+   114,
+   116,
+   46,
+   103,
+   101,
+   110,
+   101,
+   114,
+   97,
+   108,
+   95,
+   108,
+   101,
+   100,
+   103,
+   101,
+   114,
+   39,
+   34
+  ],
+  "name": [
+   39,
+   101,
+   114,
+   112,
+   110,
+   101,
+   120,
+   116,
+   46,
+   97,
+   99,
+   99,
+   111,
+   117,
+   110,
+   116,
+   115,
+   46,
+   114,
+   101,
+   112,
+   111,
+   114,
+   116,
+   46,
+   103,
+   101,
+   110,
+   101,
+   114,
+   97,
+   108,
+   95,
+   108,
+   101,
+   100,
+   103,
+   101,
+   114,
+   39
+  ],
+  "path": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   77,
+   111,
+   100,
+   117,
+   108,
+   101,
+   78,
+   111,
+   116,
+   70,
+   111,
+   117,
+   110,
+   100,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://0.0.0.0:8000/api/method/frappe....ral+Ledger&filters=%7B%7D&_=1655182996850' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "65": "",
+    "66": "\t\telif request.path.startswith(\"/api/\"):",
+    "67": "\t\t\tresponse = frappe.api.handle()",
+    "68": "",
+    "69": "\t\telif request.path.startswith('/backups'):"
+   },
+   "lnum": 67
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "57": "\tif call==\"method\":",
+    "58": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "59": "\t\treturn frappe.handler.handle()",
+    "60": "",
+    "61": "\telif call==\"resource\":"
+   },
+   "lnum": 59
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.query_report.run'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "22": "",
+    "23": "\tif cmd!='login':",
+    "24": "\t\tdata = execute_cmd(cmd)",
+    "25": "",
+    "26": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 24
+  },
+  {
+   "call": "(cmd='frappe.desk.query_report.run', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'report_name': 'General Ledger', 'filters': '{}', 'cmd': 'frappe.desk.query_report.run'}",
+    "global frappe": "<module 'frappe' from '/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function read_only.<locals>.innfn.<locals>.wrapper_fn>"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "62": "\tis_valid_http_method(method)",
+    "63": "",
+    "64": "\treturn frappe.call(method, **frappe.form_dict)",
+    "65": "",
+    "66": "def is_whitelisted(method):"
+   },
+   "lnum": 64
+  },
+  {
+   "call": "(fn=<function read_only.<locals>.innfn.<locals>.wrapper_fn>, *args=(), **kwargs={'cmd': 'frappe.desk.query_report.run', 'filters': '{}', 'report_name': 'General Ledger'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function read_only.<locals>.innfn.<locals>.wrapper_fn>",
+    "newargs": "{'cmd': 'frappe.desk.query_report.run', 'filters': '{}', 'report_name': 'General Ledger'}"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1103": "\tnewargs = get_newargs(fn, kwargs)",
+    "1104": "",
+    "1105": "\treturn fn(*args, **newargs)",
+    "1106": "",
+    "1107": "def get_newargs(fn, kwargs):"
+   },
+   "lnum": 1105
+  },
+  {
+   "call": "(*args=(), **kwargs={'cmd': 'frappe.desk.query_report.run', 'filters': '{}', 'report_name': 'General Ledger'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function run>",
+    "global get_newargs": "<function get_newargs>",
+    "kwargs": "{'cmd': 'frappe.desk.query_report.run', 'filters': '{}', 'report_name': 'General Ledger'}",
+    "retval": "undefined"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "wrapper_fn",
+   "lines": {
+    "546": "",
+    "547": "\t\t\ttry:",
+    "548": "\t\t\t\tretval = fn(*args, **get_newargs(fn, kwargs))",
+    "549": "\t\t\tfinally:",
+    "550": "\t\t\t\tif local and hasattr(local, 'primary_db'):"
+   },
+   "lnum": 548
+  },
+  {
+   "call": "(report_name='General Ledger', filters='{}', user='Administrator', ignore_prepared_report=False, custom_columns=None)",
+   "dump": {
+    "custom_columns": "None",
+    "filters": "'{}'",
+    "global generate_report_result": "<function read_only.<locals>.innfn.<locals>.wrapper_fn>",
+    "report": "<frappe.core.doctype.report.report.Report object>",
+    "result": "None",
+    "user": "'Administrator'"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/query_report.py",
+   "func": "run",
+   "lines": {
+    "211": "\t\tresult = get_prepared_report_result(report, filters, dn, user)",
+    "212": "\telse:",
+    "213": "\t\tresult = generate_report_result(report, filters, user, custom_columns)",
+    "214": "",
+    "215": "\tresult[\"add_total_row\"] = report.add_total_row and not result.get('skip_total_row', False)"
+   },
+   "lnum": 213
+  },
+  {
+   "call": "(*args=(<frappe.core.doctype.report.report.Report object>, '{}', 'Administrator', None), **kwargs={})",
+   "dump": {
+    "args": "(<frappe.core.doctype.report.report.Report object>, '{}', 'Administrator', None)",
+    "fn": "<function generate_report_result>",
+    "global get_newargs": "<function get_newargs>",
+    "kwargs": "{}",
+    "retval": "undefined"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "wrapper_fn",
+   "lines": {
+    "546": "",
+    "547": "\t\t\ttry:",
+    "548": "\t\t\t\tretval = fn(*args, **get_newargs(fn, kwargs))",
+    "549": "\t\t\tfinally:",
+    "550": "\t\t\t\tif local and hasattr(local, 'primary_db'):"
+   },
+   "lnum": 548
+  },
+  {
+   "call": "(report=<frappe.core.doctype.report.report.Report object>, filters={}, user='Administrator', custom_columns=None)",
+   "dump": {
+    "filters": "{}",
+    "global get_report_result": "<function get_report_result>",
+    "report": "<frappe.core.doctype.report.report.Report object>",
+    "res": "undefined"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/query_report.py",
+   "func": "generate_report_result",
+   "lines": {
+    "71": "\t\tfilters = json.loads(filters)",
+    "72": "",
+    "73": "\tres = get_report_result(report, filters) or []",
+    "74": "",
+    "75": "\tcolumns, result, message, chart, report_summary, skip_total_row = ljust_list(res, 6)"
+   },
+   "lnum": 73
+  },
+  {
+   "call": "(report=<frappe.core.doctype.report.report.Report object>, filters={})",
+   "dump": {
+    "filters": "{}",
+    "report": "<frappe.core.doctype.report.report.Report object>",
+    "report. execute_script_report": "<bound method Report.execute_script_report of <frappe.core.doctype.report.report.Report object>>",
+    "res": "undefined"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/query_report.py",
+   "func": "get_report_result",
+   "lines": {
+    "55": "",
+    "56": "\telif report.report_type == \"Script Report\":",
+    "57": "\t\tres = report.execute_script_report(filters)",
+    "58": "",
+    "59": "\telif report.report_type == \"Custom Report\":"
+   },
+   "lnum": 57
+  },
+  {
+   "call": "(self=<frappe.core.doctype.report.report.Report object>, filters={})",
+   "dump": {
+    "filters": "{}",
+    "res": "[]",
+    "self": "<frappe.core.doctype.report.report.Report object>",
+    "self. execute_module": "<bound method Report.execute_module of <frappe.core.doctype.report.report.Report object>>"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/core/doctype/report/report.py",
+   "func": "execute_script_report",
+   "lines": {
+    "118": "\t\t# The JOB",
+    "119": "\t\tif self.is_standard == 'Yes':",
+    "120": "\t\t\tres = self.execute_module(filters)",
+    "121": "\t\telse:",
+    "122": "\t\t\tres = self.execute_script(filters)"
+   },
+   "lnum": 120
+  },
+  {
+   "call": "(self=<frappe.core.doctype.report.report.Report object>, filters={})",
+   "dump": {
+    "filters": "{}",
+    "frappe. _dict": "<class 'frappe._dict'>",
+    "frappe. get_attr": "<function get_attr>",
+    "global frappe": "<module 'frappe' from '/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method_name": "'erpnext.accounts.report.general_ledger.general_ledger.execute'"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/core/doctype/report/report.py",
+   "func": "execute_module",
+   "lines": {
+    "135": "\t\tmodule = self.module or frappe.db.get_value(\"DocType\", self.ref_doctype, \"module\")",
+    "136": "\t\tmethod_name = get_report_module_dotted_path(module, self.name) + \".execute\"",
+    "137": "\t\treturn frappe.get_attr(method_name)(frappe._dict(filters))",
+    "138": "",
+    "139": "\tdef execute_script(self, filters):"
+   },
+   "lnum": 137
+  },
+  {
+   "call": "(method_string='erpnext.accounts.report.general_ledger.general_ledger.execute')",
+   "dump": {
+    "builtin getattr": "<built-in function getattr>",
+    "global get_module": "<function get_module>",
+    "methodname": "'execute'",
+    "modulename": "'erpnext.accounts.report.general_ledger.general_ledger'"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_attr",
+   "lines": {
+    "1094": "\tmodulename = '.'.join(method_string.split('.')[:-1])",
+    "1095": "\tmethodname = method_string.split('.')[-1]",
+    "1096": "\treturn getattr(get_module(modulename), methodname)",
+    "1097": "",
+    "1098": "def call(fn, *args, **kwargs):"
+   },
+   "lnum": 1096
+  },
+  {
+   "call": "(modulename='erpnext.accounts.report.general_ledger.general_ledger')",
+   "dump": {
+    "global importlib": "<module 'importlib' from '/home/ubuntu/frappe-bench/env/lib/python3.8/importlib/__init__.py'>",
+    "importlib. import_module": "<function import_module>",
+    "modulename": "'erpnext.accounts.report.general_ledger.general_ledger'"
+   },
+   "file": "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_module",
+   "lines": {
+    "868": "def get_module(modulename):",
+    "869": "\t\"\"\"Returns a module object for given Python module name using `importlib.import_module`.\"\"\"",
+    "870": "\treturn importlib.import_module(modulename)",
+    "871": "",
+    "872": "def scrub(txt):"
+   },
+   "lnum": 870
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger.general_ledger', package=None)",
+   "dump": {
+    "_bootstrap. _gcd_import": "<function _gcd_import>",
+    "global _bootstrap": "<module 'importlib._bootstrap' (frozen)>",
+    "level": "0",
+    "name": "'erpnext.accounts.report.general_ledger.general_ledger'",
+    "package": "None"
+   },
+   "file": "/home/ubuntu/frappe-bench/env/lib/python3.8/importlib/__init__.py",
+   "func": "import_module",
+   "lines": {
+    "125": "                break",
+    "126": "            level += 1",
+    "127": "    return _bootstrap._gcd_import(name[level:], package, level)",
+    "128": "",
+    "129": ""
+   },
+   "lnum": 127
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger.general_ledger', package=None, level=0)",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_gcd_import",
+   "lines": {},
+   "lnum": 1014
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger.general_ledger', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load",
+   "lines": {},
+   "lnum": 991
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger.general_ledger', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load_unlocked",
+   "lines": {},
+   "lnum": 961
+  },
+  {
+   "call": "(f=<function _gcd_import>, *args=('erpnext.accounts.report.general_ledger',), **kwds={})",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_call_with_frames_removed",
+   "lines": {},
+   "lnum": 219
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger', package=None, level=0)",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_gcd_import",
+   "lines": {},
+   "lnum": 1014
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load",
+   "lines": {},
+   "lnum": 991
+  },
+  {
+   "call": "(name='erpnext.accounts.report.general_ledger', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/ubuntu/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load_unlocked",
+   "lines": {},
+   "lnum": 973
+  }
+ ],
+ "locals": {
+  "import_": "<function _gcd_import>",
+  "name": "erpnext.accounts.report.general_ledger",
+  "parent": "erpnext.accounts.report",
+  "parent_module": "<module 'erpnext.accounts.report' from '/home/ub...pps/erpnext/erpnext/accounts/report/__init__.py'>",
+  "path": "['/home/ubuntu/frappe-bench/apps/erpnext/erpnext/accounts/report']",
+  "spec": "None"
+ },
+ "pyver": "Python 3.8.10: /home/ubuntu/frappe-bench/env/bin/python (prefix: /home/ubuntu/frappe-bench/env)",
+ "timestamp": "2022-06-14 01:03:19.037772",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py\", line 67, in application\n    response = frappe.api.handle()\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py\", line 59, in handle\n    return frappe.handler.handle()\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py\", line 24, in handle\n    data = execute_cmd(cmd)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py\", line 64, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py\", line 1105, in call\n    return fn(*args, **newargs)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py\", line 548, in wrapper_fn\n    retval = fn(*args, **get_newargs(fn, kwargs))\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/query_report.py\", line 213, in run\n    result = generate_report_result(report, filters, user, custom_columns)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py\", line 548, in wrapper_fn\n    retval = fn(*args, **get_newargs(fn, kwargs))\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/query_report.py\", line 73, in generate_report_result\n    res = get_report_result(report, filters) or []\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/query_report.py\", line 57, in get_report_result\n    res = report.execute_script_report(filters)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/core/doctype/report/report.py\", line 120, in execute_script_report\n    res = self.execute_module(filters)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/core/doctype/report/report.py\", line 137, in execute_module\n    return frappe.get_attr(method_name)(frappe._dict(filters))\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py\", line 1096, in get_attr\n    return getattr(get_module(modulename), methodname)\n  File \"/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py\", line 870, in get_module\n    return importlib.import_module(modulename)\n  File \"/home/ubuntu/frappe-bench/env/lib/python3.8/importlib/__init__.py\", line 127, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1014, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 991, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 961, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 219, in _call_with_frames_removed\n  File \"<frozen importlib._bootstrap>\", line 1014, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 991, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 973, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'erpnext.accounts.report.general_ledger'\n"
+}

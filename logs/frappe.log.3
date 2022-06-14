@@ -1,12 +1,79 @@
-[ERROR] 2022-06-14 00:47:08,349 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Volunteer Type",
- "with_parent": "1"
-}
-Request Error
+[ERROR] 2022-06-14 00:47:04,915 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 63, in load_assets
+    self.add_code()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 117, in add_code
+    self.add_html_templates(path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/membership_type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:06,596 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 63, in load_assets
+    self.add_code()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 117, in add_code
+    self.add_html_templates(path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/volunteer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:08,356 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -33,15 +100,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/volunteer_type'
-[ERROR] 2022-06-14 00:47:15,074 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "2018-11-04 03:36:35.337403",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Certification Application",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:15,079 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -68,15 +137,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/certification_application'
-[ERROR] 2022-06-14 00:47:17,086 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "2018-11-04 03:36:47.386618",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Certified Consultant",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:17,099 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -103,15 +174,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/certified_consultant'
-[ERROR] 2022-06-14 00:47:18,931 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "2017-12-14 12:59:31.424240",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Chapter",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:18,938 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -138,15 +211,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/chapter'
-[ERROR] 2022-06-14 00:47:22,404 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Donor",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:22,408 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -173,15 +248,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/donor'
-[ERROR] 2022-06-14 00:47:24,049 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Donor Type",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:24,052 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -208,15 +285,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/donor_type'
-[ERROR] 2022-06-14 00:47:25,486 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Grant Application",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:25,489 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -243,15 +322,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/grant_application'
-[ERROR] 2022-06-14 00:47:32,358 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "2018-11-04 03:36:47.386618",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Certified Consultant",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:32,363 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -278,15 +359,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/certified_consultant'
-[ERROR] 2022-06-14 00:47:36,318 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Volunteer Type",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:36,323 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -313,15 +396,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/volunteer_type'
-[ERROR] 2022-06-14 00:47:40,618 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Membership",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:40,623 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -348,15 +433,17 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/membership'
-[ERROR] 2022-06-14 00:47:46,374 | /home/ubuntu/frappe-bench/apps/frappe/frappe/app.py:
-Site: proveedor_orden
-Form Dict: {
- "cached_timestamp": "2018-11-04 03:36:35.337403",
- "cmd": "frappe.desk.form.load.getdoctype",
- "doctype": "Certification Application",
- "with_parent": "1"
-}
-Request Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+[ERROR] 2022-06-14 00:47:46,385 | /home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: characters_written
 Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
     response = frappe.api.handle()
@@ -383,3 +470,12 @@ Traceback (most recent call last):
   File "/home/ubuntu/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 129, in add_html_templates
     for fname in os.listdir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/frappe-bench/apps/erpnext/erpnext/non_profit/doctype/certification_application'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/error.py", line 127, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
